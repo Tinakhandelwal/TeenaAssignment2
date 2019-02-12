@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>RegistrationForm </title>
+</head>
+
+<body>
+    <img src="kelltonlogo.jpg" alt = "LogoKellton"/>&nbsp;
+    &nbsp;<a href=" "><b>Home |</b></a>
+    <a href=" "><b>Products | </b></a>
+    <a href=" "><b>Company |</b></a>
+    <a href=" "><b>Blog </b></a>
+    
+    
+    <span class="search-box">
+        <input type="text" placeholder="Search.." name="search">
+    </span>
+    <center>
+     <h1>Online Registration</h1>
+    </center>
+
+    <p>Online registration forms make it easy to plan your next event such as conferences, workshops or classes. This online registration form include first name, last name , DOB, Full address and increment number of user. There is radio button also to chosse type. At the end of the form you have to check terms and conditions. There is register and save draft button to save the information of user. There is some page link of home, Products, Company and Blogs are available. With the help of these link you can go to different html pages. </p>
+    
+    <form class="container">
+    <table>
+        <tr>
+            <td>Title</td>
+            <td><select>
+                    <option value="Mr.">Mr.</option>
+                    <option value="Ms.">Ms.</option>
+                    <option value="Mrs.">Mrs.</option>
+                  </select></td>
+        </tr>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" placeholder="First Name" name="Firstname"></td>
+        </tr>
+        <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="Lastname" placeholder="Last Name"></td>
+         </tr>
+         <tr>
+            <td>DOB</td>
+            <td><input type="date" name="bday"></td>
+     </tr>
+         <tr>
+                <td>Full Address</td>
+                <td><textarea rows="8" cols="22" name="addressbox">
+               </textarea></td>
+            </tr>
+            <tr>
+                   <td>Items you want</td>
+                   <td><textarea rows="6" cols= "22" placeholder="Item One
+                       Item Two
+                       Item Three"></textarea></td>
+               </tr>
+         <tr>
+             <td>Choose any</td>
+             <td>
+                 <input type="radio" name="Choice" value="Choice One">Choice One<br>
+                <input type="radio" name="Choice" value="Choice Two">Choice Two<br>
+                <input type="radio" name="Choice" value="Choice Three">Choice Three
+            </td>
+         </tr>
+         <tr>
+             <td>Increment Number</td>
+             <td><input type="number" name="quantity" min="1" max="4"></td>
+            </tr>
+         <tr>
+            <td> </td> 
+            <td><input type="checkbox" name="checkbox" value="Terms">Agree with Terms and Conditions</td>
+         </tr>
+         <tr>
+                <td> </td>
+                <td><button class="button">Register</button>&nbsp;
+                &nbsp;<button class="button">Save Draft</button></td>
+             </tr>
+    </table>
+</form>
+</body>
+
+</html>
+<style>
+body{
+    background-color: #FDD7B2;
+    margin: 20px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    align-content: left;
+}
+.button{
+    box-shadow: 5px 5px rgb(19, 8, 8);
+    
+}
+span.search-box input[type=text] {
+  float: right;
+  background: #f1f1f1;
+  border: 2px solid grey;
+  margin-top: 20px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+
+td {
+        padding: 5px;
+                         
+}
+table{
+    margin: 30px;
+}
+span.btns button {
+    box-shadow: 5px 10px;
+  
+}
+
+
+ </style>
